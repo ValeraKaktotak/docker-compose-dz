@@ -1,0 +1,6 @@
+FROM php:7.4-fpm
+
+# Указываем рабочую директорию для PHP
+WORKDIR /var/www
+
+CMD ["php-fpm"]
